@@ -11,7 +11,7 @@ function Sidebar({Children}) {
             <img className='h-[30px] w-[32px]' src=' https://i.pinimg.com/originals/b8/fd/82/b8fd821c02183a8d19765c9362bf2465.jpg' />
 
             <button className='flex'>
-                <ChevronFirst />
+                {/* <ChevronFirst /> */}
              </button>
         </div>
         <ul className='flex-1 px-3'> {Children}</ul>
